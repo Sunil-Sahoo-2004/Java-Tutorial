@@ -22,6 +22,16 @@ public class Hash_Set {
 
         System.out.println(hs);
 
+        // Remove
+        boolean isRemoved = hs.remove(40);
+        System.out.println(isRemoved);
+
+        // Search
+        boolean isPresent = hs.contains(100);
+        System.out.println(isPresent);
+
+        System.out.println(hs);
+
 
         // Contains unique elements only like HashSet. It extends the HashSet class and implements the Set interface.
         // The LinkedHashSet is an ordered version of HashSet that maintains a doubly-linked List across all elements. 
